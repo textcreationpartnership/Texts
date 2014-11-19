@@ -1,0 +1,2219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:XSL="http://www.w3.org/1999/XSL/Transform">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">TCP characters</title>
+            <editor>Paul Schaffner</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>https://github.com/textcreationpartnership/TCPTools</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>from charmap.sgm, maintained by TCP</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <desc>reversed (mirror-image) Greek capital gamma. Glyph variant of Ggr.</desc>
+            <char xml:id="Ggr-rev">
+               <mapping type="default">{Ggr-rev}</mapping>
+               <mapping type="Arial Unicode MS">Γ</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Prefer the disambiguous entites Moonfirst, Moonlast, Moonnew, Moonround. Generic symbol for Moon (planet) or alchemical silver, currently displays as first quarter moon (as does Moonfirst).</desc>
+            <char xml:id="Moon">
+               <charName>MOON</charName>
+               <mapping type="default">{Moon}</mapping>
+               <mapping type="Arial Unicode MS">☽</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>new moon calendrical symbol, most often depicted by black circle; see also Moonfirst, Moonlast, Moonround</desc>
+            <char xml:id="Moonnew">
+               <mapping type="default">{new moon}</mapping>
+               <mapping type="Arial Unicode MS">●</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>full moon calendrical symbol, most often depicted by white circle; see also Moonfirst, Moonlast, Moonnew</desc>
+            <char xml:id="Moonround">
+               <mapping type="default">{full moon}</mapping>
+               <mapping type="Arial Unicode MS">❍</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>reversed (mirror-image) Greek capital rho. Glyph variant of Rgr.</desc>
+            <char xml:id="Rgr-rev">
+               <mapping type="default">{Rgr-rev}</mapping>
+               <mapping type="Arial Unicode MS">Ρ</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>reversed (mirror-image) Greek capital sigma. Glyph variant of Sgr.</desc>
+            <char xml:id="Sgr-rev">
+               <mapping type="default">{Sgr-rev}</mapping>
+               <mapping type="Arial Unicode MS">Σ</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>upper-case swash form of V (ambiguous character sometimes behaves like U, sometimes like V)</desc>
+            <char xml:id="V">
+               <mapping type="default">{V}</mapping>
+               <mapping type="Arial Unicode MS">Ʋ</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for PRI (P topped by an apostrophe or decadent superscript i)</desc>
+            <char xml:id="abPRI">
+               <mapping type="default">{PRI}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>upper case version of the abbreviation symbol for '-QUE'; Cp. abque.</desc>
+            <char xml:id="abQUE">
+               <mapping type="default">{QUE}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>upper case version of the abbreviation symbol for '-US'; Cp. abus.</desc>
+            <char xml:id="abUS">
+               <mapping type="default">{US}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>An apostrophe standing in for an abbreviation, especially what would be another existing tcp abbreviation entity such as abus; mostly found in legal French or Latin texts. Do not use for normal apostrophe abbreviations in English words such as it's or heal'd, rather use an apostrophe ' (').</desc>
+            <char xml:id="abbrapo">
+               <mapping type="default">{'}</mapping>
+               <mapping type="Arial Unicode MS">’</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation string for '-bus' resembling -bz</desc>
+            <char xml:id="abbus">
+               <mapping type="default">{bus}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation sybol for 'er' or 're'; may take several forms including COMBINING OGONEK ABOVE (U+1DCE) or APOSTROPHE</desc>
+            <char xml:id="aber">
+               <mapping type="default">{er}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for pre (usu p topped by a horizontal bar or tilde); most cases will continue to be captured as p~</desc>
+            <char xml:id="abpre">
+               <mapping type="default">{pre}</mapping>
+               <mapping type="Unicode">p̄</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for pri (p topped by an apostrophe or decadent superscript i)</desc>
+            <char xml:id="abpri">
+               <mapping type="default">{pri}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for French que or qu', resembles a letter q or g with the loop of the descender continued in a half circle clockwise up past the top of the letter. Rather like an @ sign flipped vertically.</desc>
+            <char xml:id="abqu">
+               <mapping type="default">{qu}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation for Latin quam</desc>
+            <char xml:id="abquam">
+               <mapping type="default">{quam}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for '-que'</desc>
+            <char xml:id="abque">
+               <mapping type="default">{que}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for qui (atypical barred-q form only?)</desc>
+            <char xml:id="abqui">
+               <mapping type="default">{qui}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>2-shaped r with stroke (like abrum entity), abbreviation symbol for '-rim'</desc>
+            <char xml:id="abris">
+               <mapping type="default">{ris}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for 'sed'. For uncertain cases use sloop</desc>
+            <char xml:id="absed">
+               <mapping type="default">{sed}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for 'ser'. For uncertain cases use sloop</desc>
+            <char xml:id="abser">
+               <mapping type="default">{ser}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for alum: a simple circle. Unicode references a different glyph for this meaning.</desc>
+            <char xml:id="alum">
+               <mapping type="default">{alum}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for alum, alternative form; horizontally divided circle with + attached to left side.  Unicode references a different glyph for this meaning.</desc>
+            <char xml:id="alum2">
+               <mapping type="default">{alum}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>math. Mark that identifies following listed points as defining an angle, physically rendered as horizontal brace or similar mark, Cp. ang</desc>
+            <char xml:id="angulum">
+               <mapping type="default">{angulum}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for antimony. Unicode attaches both 'earth' and 'antimony' to the same (earth) codepoint. TCP separates into two entities.</desc>
+            <char xml:id="antimony">
+               <mapping type="default">{antimony}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for arsenic: two small circles joined at their midpoints by vertical line, or attached, forming an 8-shaped symbol, usu tilted to the right.</desc>
+            <char xml:id="arsenic2">
+               <mapping type="default">{arsenic}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>final barline or close, glyph variant of musical barline (U+1D100).</desc>
+            <char xml:id="barlinef">
+               <charName>MUSICAL SYMBOL SINGLE FINAL BARLINE</charName>
+               <mapping type="default">{final barline}</mapping>
+               <mapping type="Unicode">𝄀</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for bezoar minerale (a preparation of antimony); resembles the astrological sign for Leo (in our only example, printer presumably hijacked the available glyph). DISPLAY AS LEO (U+264C)</desc>
+            <char xml:id="bezoarMin">
+               <mapping type="default">{Bezoar minerale}</mapping>
+               <mapping type="Arial Unicode MS">♌</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for blood; resembles a down-pointing triangle bisected horizontally by a line and with a dot in the upper half</desc>
+            <char xml:id="blood">
+               <mapping type="default">{blood}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for cinnabar, alternative form; downward-pointing open triangle surmounted by +</desc>
+            <char xml:id="cinnabar2">
+               <mapping type="default">{cinnabar}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>open circle with central dot, like sun ☉ or circled dot operator but without those meanings</desc>
+            <char xml:id="circdot">
+               <mapping type="default">{circdot}</mapping>
+               <mapping type="Times New Roman">⊙</mapping>
+               <mapping type="Arial Unicode MS">⊙</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Looks like reversed cut time symbol. May be the same as timeimperf-prolatimperf-rev-str</desc>
+            <char xml:id="commonTime-allegro">
+               <charName>MUSICAL SYMBOL COMMON TIME ALLEGRO</charName>
+               <mapping type="default">{common time (allegro)}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Appears to be 'cut time'; may be same as timeimperf-prolatimperf-str</desc>
+            <char xml:id="commonTime-largo">
+               <charName>MUSICAL SYMBOL CUT TIME</charName>
+               <mapping type="default">{common time (largro)}</mapping>
+               <mapping type="PUA">𝄵</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>an upright cross symbol + , different from the ISOpub cross entity (a ballot cross), perhaps we should rename our entity.</desc>
+            <char xml:id="cross">
+               <mapping type="default">{cross}</mapping>
+               <mapping type="Arial Unicode MS">✚</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for day: resembles a small circle with a vertical line sticking up from it (vertically or slanted to the right), conjunction (U+260C). Unicode attaches both 'conjunction' and 'day' to this 'conjunction' codepoint. TCP separates these senses into two entities.</desc>
+            <char xml:id="day">
+               <mapping type="default">{day}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>decimal separator symbol resembling lower left box-drawing character (L), sometimes extended under decimal portion of number. Use without surrounding spaces.</desc>
+            <char xml:id="decimalL">
+               <charName>L-shaped decimal separator</charName>
+               <mapping type="default">{.}</mapping>
+               <mapping type="Arial Unicode MS">⌊</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>decimal separator symbol resembling small letter c or mirror image of (comma-like) Arabic decimal separator</desc>
+            <char xml:id="decimalc">
+               <mapping type="default">{.}</mapping>
+               <mapping type="Arial Unicode MS">.</mapping>
+               <mapping type="Arial Unicode MS">.</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>lower case d with a hook or loop attached at upper right, or similar. Essentially an abbreviating d, with many meanings, e.g. for pence (d.)</desc>
+            <char xml:id="dhook">
+               <charName>LATIN SMALL LETTER D WITH COMBINING REVERSED COMMA ABOVE</charName>
+               <mapping type="default">{dhook}</mapping>
+               <mapping type="Arial Unicode MS">d̔</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical direct symbol (resembles check mark)</desc>
+            <char xml:id="direct">
+               <mapping type="default">{direct}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for divisor or divided by (formally identical to eccentric greater than symbol (entity morethan), ⫍ SQUARE LEFT OPEN BOX OPERATOR displays as box</desc>
+            <char xml:id="divisor">
+               <mapping type="default">{divisor}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>in dance instructions: designates female dancer; repurposing of symbol for Moon (or silver; display as FIRST QUARTER MOON.</desc>
+            <char xml:id="dnc-female">
+               <mapping type="default">{female dancer}</mapping>
+               <mapping type="Arial Unicode MS">☽</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>in dance instructions: designates male dancer; repurposing of symbol for Sun (or gold); display as Sun.</desc>
+            <char xml:id="dnc-male">
+               <mapping type="default">{male dancer}</mapping>
+               <mapping type="Arial Unicode MS">☉</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>in dance instructions: repeat preceding strain once.</desc>
+            <char xml:id="dnc-repeat">
+               <mapping type="default">{repeat strain once}</mapping>
+               <mapping type="Arial Unicode MS"> .̲̲ </mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>in dance instructions: repeat preceding strain twice.</desc>
+            <char xml:id="dnc-repeat2">
+               <mapping type="default">{repeat strain twice}</mapping>
+               <mapping type="Arial Unicode MS"> :̲̲ </mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>in dance instructions: repeat preceding strain thrice.</desc>
+            <char xml:id="dnc-repeat3">
+               <mapping type="default">{repeat strain once}</mapping>
+               <mapping type="Arial Unicode MS"> .̲:̲̲ </mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>in dance instructions: repeat entire tune. Possibly a variant of the standard musical Repeat sign. Display as DOTTED CROSS.</desc>
+            <char xml:id="dnc-startover">
+               <mapping type="default">{repeat entire tune}</mapping>
+               <mapping type="Arial Unicode MS">⁜</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>dra(ch)m, Unicode treats as equivalent with LATIN SMALL LETTER EZH; TCP treats separately</desc>
+            <char xml:id="dram">
+               <charName>DRAM</charName>
+               <mapping type="default">{dram}</mapping>
+               <mapping type="Arial Unicode MS">ʒ</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>three asterisks arranged in down-pointing triangle like dtridot. An inverted asterism.</desc>
+            <char xml:id="dtristar">
+               <mapping type="default">{inverted asterism}</mapping>
+               <mapping type="Arial Unicode MS">{inverted ⁂}</mapping>
+               <mapping type="Unicode">*⁎*</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>last in a series of marginal quotation marks (used only by keyers, removed in review)</desc>
+            <char xml:id="endq">
+               <mapping type="default">{endq}</mapping>
+               <mapping type="Times New Roman">”</mapping>
+               <mapping type="Arial Unicode MS">”</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>9-shaped abbrev. for 'es'</desc>
+            <char xml:id="es">
+               <mapping type="default">{es}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>single character or ligature meaning ampersand+c or etc, especially in early Caxtons</desc>
+            <char xml:id="etc">
+               <mapping type="default">{etc}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>female, as distinguished from Venus. Display as Venus.</desc>
+            <char xml:id="female">
+               <charName>FEMALE SIGN</charName>
+               <mapping type="default">{female}</mapping>
+               <mapping type="Times New Roman">♀</mapping>
+               <mapping type="Arial Unicode MS">♀</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <char xml:id="finallamed">
+               <charName>HEBREW LETTER FINAL LAMED</charName>
+               <mapping type="default">{final lamed}</mapping>
+               <mapping type="Arial Unicode MS">ﬥ</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>five dashes arranged as quincunx (like fivespot on dice)</desc>
+            <char xml:id="fivedash">
+               <mapping type="default">{fivedash}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>No Unicode 41 equiviant.</desc>
+            <char xml:id="fjlig">
+               <charName>LATIN SMALL LIGATURE FJ</charName>
+               <mapping type="default">{fj}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for glass; circle with horizontal line attached externally at center right</desc>
+            <char xml:id="glass">
+               <mapping type="default">{glass}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>horizontal (or lazy) double dagger (pointing neither left nor right)</desc>
+            <char xml:id="hDagger">
+               <mapping type="default">{horizontal double dagger}</mapping>
+               <mapping type="Arial Unicode MS">{horizontal ‡}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>cross with left arm removed. Cp. trine2, trine</desc>
+            <char xml:id="halfcross">
+               <mapping type="default">{half cross}</mapping>
+               <mapping type="Arial Unicode MS">⊢</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>heart-shaped symbol</desc>
+            <char xml:id="heart">
+               <mapping type="default">{heart}</mapping>
+               <mapping type="Times New Roman">♡</mapping>
+               <mapping type="Arial Unicode MS">♡</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for higher or more acute term (open triangle pointing up with horizontal stroke below), ⩟ LOGICAL AND WITH UNDERBAR displays as box</desc>
+            <char xml:id="higherterm">
+               <mapping type="default">{higher term}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for higher or more acute (open triangle pointing up)</desc>
+            <char xml:id="higherthan">
+               <mapping type="default">{higher than}</mapping>
+               <mapping type="Times New Roman">∧</mapping>
+               <mapping type="Arial Unicode MS">∧</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Greek and Syriac critical siglum as used by Origen and his successors. This is a glyph variant of the generic OBELUS entity (U+2E13) (horizontal line with dot above), which may in some examples have distinctive meaning. Display as mathematical DOT MINUS.</desc>
+            <char xml:id="hyperlemnisc">
+               <charName>SINGLE-DOTTED OBELOS (dot above)</charName>
+               <mapping type="default">{hyperlemniscus}</mapping>
+               <mapping type="Times New Roman">.—̇</mapping>
+               <mapping type="Arial Unicode MS">∸</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Greek and Syriac critical siglum as used by Origen and his successors. This is a glyph variant of the generic OBELUS entity (U+2E13) (horizontal line with dot below), which may in some examples have distinctive meaning. Display as the Syriac derivative (SYRIAC HARKLEAN OBELUS; but may need to change this because of RTL property of Syriac)</desc>
+            <char xml:id="hypolemnisc">
+               <charName>SINGLE-DOTTED OBELOS (dot below)</charName>
+               <mapping type="default">{hypolemniscus}</mapping>
+               <mapping type="Times New Roman">.6</mapping>
+               <mapping type="Arial Unicode MS">܋</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>inverted dagger (blade up, hilt down)</desc>
+            <char xml:id="idagger">
+               <mapping type="default">{inverted dagger}</mapping>
+               <mapping type="Arial Unicode MS">{inverted †}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Intended for rotated pilcrow (i.e. normal pilcrow sort used upside-down); not in Unicode. Displays as reversed pilcrow instead.</desc>
+            <char xml:id="ipara">
+               <charName>INVERTED PILCROW SIGN</charName>
+               <mapping type="default">{inverted pilcrow}</mapping>
+               <mapping type="Arial Unicode MS">⁋</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>left dagger (blade left, hilt right) found in E000392 REF 11</desc>
+            <char xml:id="ldagger">
+               <mapping type="default">{left dagger}</mapping>
+               <mapping type="Arial Unicode MS">{left †}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Left-pointing Greek diple, display as quotation mark. For dotted diples add dots.  consider reassigning this to U+2329</desc>
+            <char xml:id="ldiple">
+               <mapping type="default">{diple}</mapping>
+               <mapping type="Arial Unicode MS">‹</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>stylized leaf</desc>
+            <char xml:id="leaf">
+               <mapping type="default">{leaf}</mapping>
+               <mapping type="Arial Unicode MS">❧</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>span deliberately left blank, to be filled in by hand, as in a legal form</desc>
+            <char xml:id="leftblank">
+               <mapping type="default">{left blank}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Greek and Syriac critical siglum as used by Origen and his successors. This is a glyph variant of the generic OBELUS entity (U+2E13) (horizontal line with dot above and below), which may in some examples have distinctive meaning. Display as division sign.</desc>
+            <char xml:id="lemnisc">
+               <charName>DOUBLE-DOTTED OBELOS</charName>
+               <mapping type="default">{lemniscus}</mapping>
+               <mapping type="Times New Roman">∻</mapping>
+               <mapping type="Arial Unicode MS">÷</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>math. Defined as 'minus [quam]' unusual form of less than used with angles (may filter to lt)</desc>
+            <char xml:id="lessthan">
+               <mapping type="default">{less than}</mapping>
+               <mapping type="Times New Roman">&lt;</mapping>
+               <mapping type="Arial Unicode MS">‹</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Generic abbreviation symbol attached to 'l'; If this glyph serves as a brevigraph for Welsh double-l, prefer to capture as entity ll (i.e. treat it as a glyph variant of ll).</desc>
+            <char xml:id="lloop">
+               <charName>LATIN SMALL LETTER L WITH MODIFIER LETTER RIGHT HALF RING</charName>
+               <mapping type="default">{lloop}</mapping>
+               <mapping type="Arial Unicode MS">lʾ</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for logarithm</desc>
+            <char xml:id="logarithm">
+               <mapping type="default">{logarithm}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for lower or graver term (open triangle pointing down with horizontal stroke above)</desc>
+            <char xml:id="lowerterm">
+               <mapping type="default">{lower term}</mapping>
+               <mapping type="Arial Unicode MS">⊽</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for lower or graver than (open triangle pointing down)</desc>
+            <char xml:id="lowerthan">
+               <mapping type="default">{lower than}</mapping>
+               <mapping type="Times New Roman">∨</mapping>
+               <mapping type="Arial Unicode MS">∨</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <char xml:id="lpunctel">
+               <charName>REVERSED PUNCTUS ELEVATUS</charName>
+               <mapping type="default">{reversed punctus elevatus}</mapping>
+               <mapping type="Times New Roman">؛</mapping>
+               <mapping type="Arial Unicode MS">؛</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>reversed (mirror-image) question mark. Resembles lpunctel but serves as query mark, not as opening bracketing punctuation; cf. INVERTED QUESTION MARK ¿</desc>
+            <char xml:id="lquest">
+               <mapping type="default">{reversed question mark}</mapping>
+               <mapping type="Arial Unicode MS">{reversed ?}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>chemical or alchemical sign, possibly for magnesia/um (based on symbols.com). Resembles circle with cross or arrow attached to right side.</desc>
+            <char xml:id="magnesia">
+               <mapping type="default">{magnesia}</mapping>
+               <mapping type="Arial Unicode MS">○→</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>male, as distinguished from Mars. Display as Mars.</desc>
+            <char xml:id="male">
+               <charName>MALE SIGN</charName>
+               <mapping type="default">{male}</mapping>
+               <mapping type="Times New Roman">♂</mapping>
+               <mapping type="Arial Unicode MS">♂</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for drop (minim), using the zodiacal sign for Scorpio (U+264F). Display as U+264F.</desc>
+            <char xml:id="minim">
+               <mapping type="default">{drop}</mapping>
+               <mapping type="Arial Unicode MS">♏</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for drop (minim), using the zodiacal sign for Virgo (U+264D). Display as U+264D.</desc>
+            <char xml:id="minim2">
+               <mapping type="default">{drop}</mapping>
+               <mapping type="Arial Unicode MS">♍</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>math. Defined as 'maius [quam]' unusual form of greater than used with angles (may filter to gt)</desc>
+            <char xml:id="morethan">
+               <mapping type="default">{more than}</mapping>
+               <mapping type="Times New Roman">&gt;</mapping>
+               <mapping type="Arial Unicode MS">›</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for multiplier or multiplied by (resembles m followed by tilde)</desc>
+            <char xml:id="multiplier">
+               <mapping type="default">{multiplier}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>generic musical note symbol. Display as dingbat-type quarter note (U+2669)</desc>
+            <char xml:id="musicNote">
+               <mapping type="default">♩</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol demisemiquaver note, 𝅘𝅥𝅰 MUSICAL SYMBOL THIRTY-SECOND NOTE displays as box.</desc>
+            <char xml:id="notedemisemiquaver">
+               <mapping type="default">{demisemiquaver note}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for oil, glyph variant resembling two concentric circles. DISPLAY AS CIRCLED WHITE BULLET (U+29BE).</desc>
+            <char xml:id="oil2">
+               <mapping type="default">{oil}</mapping>
+               <mapping type="Arial Unicode MS">⦾</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>See comments at http://www.textcreationpartnership.org/docs/dox/cantillation.html.</desc>
+            <char xml:id="pashtayin">
+               <charName>HEBREW ACCENT PASHTAYIN</charName>
+               <mapping type="default">{pashtayin}</mapping>
+               <mapping type="Times New Roman">֙ ֨</mapping>
+               <mapping type="Arial Unicode MS">֙ ֨</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol of potestas or power (perhaps a form of powerof1 entity)</desc>
+            <char xml:id="potestas">
+               <mapping type="default">{potestas}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for root or quantity to the first power</desc>
+            <char xml:id="powerof1">
+               <mapping type="default">{powerof1}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for square or quadrat or quantity to the power of two</desc>
+            <char xml:id="powerof2">
+               <mapping type="default">{powerof2}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for cube or quantity to the power of three</desc>
+            <char xml:id="powerof3">
+               <mapping type="default">{powerof3}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for square of square (foursquared quadrat or quadrat of quadrat) or quantity to the power of four</desc>
+            <char xml:id="powerof4">
+               <mapping type="default">{powerof4}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for sursolid or quantity to the power of five</desc>
+            <char xml:id="powerof5">
+               <mapping type="default">{powerof5}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for squared cube (quadrat of cube) or quantity to the power of six</desc>
+            <char xml:id="powerof6">
+               <mapping type="default">{powerof6}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>penta-prime (five prime marks), follos prime, Prime (double prime), tprime (triple prime), qprime (quadra-prime)). Not in Unicode.</desc>
+            <char xml:id="pprime">
+               <mapping type="default">{penta-prime}</mapping>
+               <mapping type="Arial Unicode MS">'''''</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for multiplication product (resembles m with superscripted i or acute)</desc>
+            <char xml:id="product">
+               <mapping type="default">{product}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for continued proportion</desc>
+            <char xml:id="proportion2">
+               <mapping type="default">{continued proportion}</mapping>
+               <mapping type="Times New Roman">∝</mapping>
+               <mapping type="Arial Unicode MS">∝</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>fallback character for ambiguous dot-like punctuation marks that could be : . , ; etc.</desc>
+            <char xml:id="punc">
+               <mapping type="default">{.}</mapping>
+               <mapping type="Arial Unicode MS">▪</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>punctus elevatus (inverted and reversed semicolon, similar to question mark)</desc>
+            <char xml:id="punctel">
+               <charName>PUNCTUS ELEVATUS</charName>
+               <mapping type="default">{punctel}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>quadruple prime</desc>
+            <char xml:id="qprime">
+               <mapping type="default">{quadruple prime}</mapping>
+               <mapping type="Arial Unicode MS">''''</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>quad dot leaning left (without specific meaning). Displays as alternating high dots and periods (full stops).</desc>
+            <char xml:id="quaddotl">
+               <mapping type="default">˙.˙.</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>quad dot leaning right (without specific meaning) Displays as alternating high dots and periods (full stops).</desc>
+            <char xml:id="quaddotr">
+               <mapping type="default">.˙.˙</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>hollow square used as symbol for quadrine or quartile or quadrant or quadrature, 90 degrees</desc>
+            <char xml:id="quadrine">
+               <mapping type="default">{quadrine}</mapping>
+               <mapping type="Times New Roman">□</mapping>
+               <mapping type="Arial Unicode MS">□</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for quotient (resembles divisor with slight hook)</desc>
+            <char xml:id="quotient">
+               <mapping type="default">{quotient}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for ratio(n) (a special use of the Rx symbol)</desc>
+            <char xml:id="ration">
+               <mapping type="default">{ration}</mapping>
+               <mapping type="Arial Unicode MS">ℛ</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>right dagger (blade right, hilt left) ound in E000392 REF 11</desc>
+            <char xml:id="rdagger">
+               <mapping type="default">{right dagger}</mapping>
+               <mapping type="Arial Unicode MS">{right †}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Right-pointing Greek diple, display as quotation mark. For dotted diples either add dots separately or use ddiple. consider reassigning this to U+232A. Added complication: only clear example actually calls it an obelus (!)</desc>
+            <char xml:id="rdiple">
+               <mapping type="default">{diple}</mapping>
+               <mapping type="Arial Unicode MS">›</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical repeat symbol resembles :||: (not in Unicode except as combination of 𝄈, 𝄁, and 𝄈), 𝄈 MUSICAL SYMBOL REPEAT DOTS displays as box.</desc>
+            <char xml:id="repeat">
+               <mapping type="default">{repeat}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol demisemiquaver rest, 𝅀 MUSICAL SYMBOL THIRTY-SECOND REST displays as box.</desc>
+            <char xml:id="restdemisemiquaver">
+               <mapping type="default">{demisemiquaver rest}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol quaver rest or rest commensurate with nota semiminima black, 𝄾 MUSICAL SYMBOL EIGHTH REST displays as box.</desc>
+            <char xml:id="restquaver">
+               <mapping type="default">{quaver rest}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol semiquaver rest or rest commensurate with nota fusa black, 𝄿 MUSICAL SYMBOL SIXTEENTH REST displays as box.</desc>
+            <char xml:id="restsemiquaver">
+               <mapping type="default">{semiquaver rest}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>cross with right arm removed. Cp. halfcross</desc>
+            <char xml:id="rhalfcross">
+               <mapping type="default">{right half cross}</mapping>
+               <mapping type="Arial Unicode MS">⊣</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>roman numeral 1000000 (quadrupled M)</desc>
+            <char xml:id="rn1000000">
+               <mapping type="default">{roman 1000000}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>roman numeral 500000 (quadrupled D)</desc>
+            <char xml:id="rn500000">
+               <mapping type="default">{roman 500000}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>mathematical symbol for surd root or radical (a special use of the Rx symbol). {root}Q is square root {root}C is cube root etc.</desc>
+            <char xml:id="root">
+               <mapping type="default">{root}</mapping>
+               <mapping type="Arial Unicode MS">ℛ</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>reversed (mirror-image) section symbol</desc>
+            <char xml:id="rsect">
+               <mapping type="default">{reversed section}</mapping>
+               <mapping type="Arial Unicode MS">{reversed §}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for sal armoniac, possible alternative form</desc>
+            <char xml:id="salarmon2">
+               <mapping type="default">{sal armoniac}</mapping>
+               <mapping type="Arial Unicode MS">⊕</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical sharp symbol, x-shaped variant form; possibly ancestor of modern double sharp; use this entity regardless of which meaning it has; use this entity if shape is roughly like x; later versions resemble modern sharp symbol. for modern #-shaped sharp (with horizontal strokes), use ISO entity sharp, 𝄪 MUSICAL SYMBOL DOUBLE SHARP (but display U+266F, ♯).</desc>
+            <char xml:id="sharp2">
+               <mapping type="default">♯</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical sharp symbol resembling mirror image of modern natural symbol (Use for p/d-shaped symbol regardless of whether it equates to a sharp or a natural; for b/q-shaped symbol use ISO natur entity), U+1D1CF MUSICAL SYMBOL CROIX.</desc>
+            <char xml:id="sharpb">
+               <mapping type="default">{sharpb}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>s-like and virgule-like shilling/pence separator, e.g. 2/3 or 2/- . Cp. slong. Perhaps uses the sort for slong. For 'sz'-type shilling abbrev use entity s followed by entity z.</desc>
+            <char xml:id="shilling">
+               <mapping type="default">{/}</mapping>
+               <mapping type="Arial Unicode MS">ʃ</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>lower case long s with a loop (backwards c) through the upright, or similar. Use when meaning uncertain or other (i.e. not sed or ser). Displays currently as round s with macron.</desc>
+            <char xml:id="sloop">
+               <charName>LATIN SMALL LETTER ESH WITH OVERSTRUCK STROKE</charName>
+               <mapping type="default">{s with loop}</mapping>
+               <mapping type="Arial Unicode MS">s̄</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>This entity represents a dot on a line of text below the level of a perioid used only for spacing, and does not combine with the preceding character. For combining use cmbdotb.</desc>
+            <char xml:id="spcdotb">
+               <charName>DOT BELOW</charName>
+               <mapping type="default">{.}</mapping>
+               <mapping type="Arial Unicode MS">․</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>first in a series of marginal quotation marks (used only by keyers, removed in review)</desc>
+            <char xml:id="startq">
+               <mapping type="default">{startq}</mapping>
+               <mapping type="Times New Roman">“</mapping>
+               <mapping type="Arial Unicode MS">“</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>asterisk used to mean star in astronomical texts, special use of ast entity, Cp. ast</desc>
+            <char xml:id="stella">
+               <mapping type="default">{stella}</mapping>
+               <mapping type="Arial Unicode MS">✴</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for talc(k); resembles capital X.</desc>
+            <char xml:id="talc">
+               <mapping type="default">{talc}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>triple dagger (one vertical bar, three shorter evenly spaced cross-bars)</desc>
+            <char xml:id="tdagger">
+               <mapping type="default">{triple dagger}</mapping>
+               <mapping type="Arial Unicode MS">‡̶</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating  time imperfect (a c-shaped broken circle) and prolation imperfect (no dot or prick) with cross indicating double diminution</desc>
+            <char xml:id="timeimperf-prolatimperf-x">
+               <mapping type="default">{timeimperf-prolatimperf-x}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating  time imperfect (a c-shaped broken circle) and prolation imperfect (dot or prick) reversed to indicate diminution</desc>
+            <char xml:id="timeimperf-prolatperf-rev">
+               <mapping type="default">{timeimperf-prolatperf-rev}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating  time imperfect (a c-shaped broken circle) and prolation imperfect (dot or prick) reversed and with a stroke to indicate double diminution</desc>
+            <char xml:id="timeimperf-prolatperf-rev-str">
+               <mapping type="default">{timeimperf-prolatperf-rev-str}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating  time imperfect (a c-shaped broken circle) and prolation imperfect (dot or prick) with stroke indicating diminution</desc>
+            <char xml:id="timeimperf-prolatperf-str">
+               <mapping type="default">{timeimperf-prolatperf-str}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating time perfect (a circle) and prolation imperfect (no dot or prick) with stroke indicating diminution</desc>
+            <char xml:id="timeperf-prolatimperf-str">
+               <mapping type="default">{timeperf-prolatimperf-str}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating time perfect (a circle) and prolation imperfect (no dot or prick) with cross indicating double diminution</desc>
+            <char xml:id="timeperf-prolatimperf-x">
+               <mapping type="default">{timeperf-prolatimperf-x}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating  time perfect (a circle) and prolation perfect (dot or prick) with stroke indicating diminution</desc>
+            <char xml:id="timeperf-prolatperf-str">
+               <mapping type="default">{timeperf-prolatperf-str}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>common club-headed dingbat with bent or hook- or sickle-shaped stalk, presumably a clover or trefoil but conceivably something else entirely.</desc>
+            <char xml:id="trefoil">
+               <mapping type="default">{trefoil}</mapping>
+               <mapping type="Arial Unicode MS">♣</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>two apostrophes and a comma arranged like dtridot without specific meaning</desc>
+            <char xml:id="triapost">
+               <mapping type="default">{triapost}</mapping>
+               <mapping type="Arial Unicode MS">','</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>astrological symbol for trine, 120 degrees, Unicode equivalent with WHITE UP-POINTING TRIANGLE</desc>
+            <char xml:id="trine">
+               <charName>TRINE</charName>
+               <mapping type="default">{trine}</mapping>
+               <mapping type="Times New Roman">△</mapping>
+               <mapping type="Arial Unicode MS">△</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alternative 3-spoke version of symbol for trine, Cp. trine, halfcross</desc>
+            <char xml:id="trine2">
+               <mapping type="default">{trine}</mapping>
+               <mapping type="Arial Unicode MS">⊦</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>upside-down-5 used in MED T volume several times</desc>
+            <char xml:id="usd5">
+               <mapping type="default">{inverted 5}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for verdigris (a mixture of copper salts); resembles the alchemical sign for sal ammoniac (in our only example, printer presumably hijacked the available glyph).</desc>
+            <char xml:id="verdigris">
+               <mapping type="default">{verdigris}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for vitriol; alternative form, horizontally divided circle with + attached to right side</desc>
+            <char xml:id="vitriol2">
+               <mapping type="default">{vitriol}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for vitriol (or chalcantum vitriolum, blue vitriol or copper sulphate); alternative form, vertically divided circle, right half also horizontally divided, with + attached to right side</desc>
+            <char xml:id="vitriol3">
+               <mapping type="default">{vitriol}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol for congruence of voices or beginning of vocal part</desc>
+            <char xml:id="vocaljoin">
+               <mapping type="default">{vocal join}</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>hebrew tetragrammaton, a sometimes stylized and sometimes (deliberately or inadvertently) incorrect string containing yod-he-vav-he</desc>
+            <char xml:id="yhwh">
+               <mapping type="default">{YHWH}</mapping>
+               <mapping type="Arial Unicode MS">יהוה</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical double barline, formally similar to double vertical bar (Verbar)</desc>
+            <char xml:id="Barline">
+               <charName>MUSICAL SYMBOL DOUBLE BARLINE</charName>
+               <mapping type="default">{double barline}</mapping>
+               <mapping type="Unicode">𝄁</mapping>
+               <mapping type="standard">𝄁</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Do not use. Capture Welsh doubled letter as if it were two ("Ll")</desc>
+            <char xml:id="LL">
+               <charName>LATIN CAPITAL LETTER MIDDLE-WELSH LL</charName>
+               <mapping type="default">{LL}</mapping>
+               <mapping type="standard">Ỻ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc/>
+            <char xml:id="Qbar">
+               <charName>LATIN CAPITAL LETTER Q WITH STROKE THROUGH DESCENDER</charName>
+               <mapping type="default">{barred Q}</mapping>
+               <mapping type="standard">Ꝗ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture round (2-shaped) form as "R"</desc>
+            <char xml:id="R">
+               <charName>LATIN CAPITAL LETTER R ROTUNDA</charName>
+               <mapping type="default">R</mapping>
+               <mapping type="standard">Ꝛ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Upper-case version of Old English "that" abbreviation</desc>
+            <char xml:id="THAT">
+               <charName>LATIN CAPITAL LETTER THORN WITH STROKE THROUGH DESCENDER</charName>
+               <mapping type="default">{THAT}</mapping>
+               <mapping type="standard">Ꝧ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Reserved for uses of barred-V not otherwise provided for.</desc>
+            <char xml:id="Vstroke">
+               <charName>LATIN CAPITAL LETTER V WITH DIAGONAL STROKE</charName>
+               <mapping type="default">{barred V}</mapping>
+               <mapping type="standard">Ꝟ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>upper-case distinctive early Welsh form of W</desc>
+            <char xml:id="W">
+               <charName>LATIN CAPITAL LETTER MIDDLE-WELSH V</charName>
+               <mapping type="default">{W}</mapping>
+               <mapping type="standard">Ỽ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Latin letter X with horizontal bar at mid point, symbolizing denarius as unit of measure</desc>
+            <char xml:id="Xbar">
+               <charName>ROMAN DENARIUS SIGN</charName>
+               <mapping type="default">{Xbar}</mapping>
+               <mapping type="Arial Unicode MS">X̶</mapping>
+               <mapping type="standard">𐆖</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>upper-case distinctive early Welsh broken-backed form of Y (mapped here to Unicode codepoint for looped Y)</desc>
+            <char xml:id="Y">
+               <charName>LATIN CAPITAL LETTER Y WITH LOOP</charName>
+               <mapping type="default">{Y}</mapping>
+               <mapping type="standard">Ỿ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Upper-case version of con- brevigraph</desc>
+            <char xml:id="abCON">
+               <charName>LATIN CAPITAL LETTER CON</charName>
+               <mapping type="default">{CON}</mapping>
+               <mapping type="standard">Ꝯ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Upper-case version of per brevigraph.</desc>
+            <char xml:id="abPER">
+               <charName>LATIN CAPITAL LETTER P WITH STROKE THROUGH ASCENDER</charName>
+               <mapping type="default">{PER}</mapping>
+               <mapping type="standard">Ꝑ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Upper-case version of pro brevigraph</desc>
+            <char xml:id="abPRO">
+               <charName>LATIN CAPITAL LETTER P WITH FLOURISH</charName>
+               <mapping type="default">{PRO}</mapping>
+               <mapping type="standard">Ꝓ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>upper case version of the abbreviation symbol for QUOD; Cp. abquod.</desc>
+            <char xml:id="abQUOD">
+               <charName>LATIN CAPITAL LETTER Q WITH DIAGONAL STROKE</charName>
+               <mapping type="default">{QUOD}</mapping>
+               <mapping type="standard">Ꝙ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Upper-case version of -rum brevigraph, regardless of form. Mapped to Unicode "R-" shaped form (as small cap).</desc>
+            <char xml:id="abRUM">
+               <charName>LATIN LETTER SMALL CAPITAL RUM</charName>
+               <mapping type="default">{RUM}</mapping>
+               <mapping type="standard">ꝶ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for 'con-'</desc>
+            <char xml:id="abcon">
+               <charName>LATIN SMALL LETTER CON</charName>
+               <mapping type="default">{con}</mapping>
+               <mapping type="standard">ꝯ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for '-is' or '-es'</desc>
+            <char xml:id="abis">
+               <charName>LATIN SMALL LETTER IS</charName>
+               <mapping type="default">{is}</mapping>
+               <mapping type="standard">ꝭ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for 'per' or 'par'</desc>
+            <char xml:id="abper">
+               <charName>LATIN SMALL LETTER P WITH STROKE THROUGH ASCENDER</charName>
+               <mapping type="default">{per}</mapping>
+               <mapping type="standard">ꝑ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>ornate p that is supposedly a symbol for per but in practice stands indifferently for per pro and pre. # usu = 'pro usu'; # septimam = 'per septimam'; ## = 'prepar[atus]'</desc>
+            <char xml:id="abpr">
+               <charName>PER SIGN</charName>
+               <mapping type="default">{pr}</mapping>
+               <mapping type="Arial Unicode MS">℘</mapping>
+               <mapping type="Unicode">⅌</mapping>
+               <mapping type="standard">⅌</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for 'precipi' or 'precipite / -ation'</desc>
+            <char xml:id="abprecipi">
+               <charName>ALCHEMICAL SYMBOL FOR PRECIPITATE</charName>
+               <mapping type="default">{precipi}</mapping>
+               <mapping type="standard">🝟</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for 'pro'</desc>
+            <char xml:id="abpro">
+               <charName>LATIN SMALL LETTER P WITH FLOURISH</charName>
+               <mapping type="default">{pro}</mapping>
+               <mapping type="standard">ꝓ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for 'quod' or 'quoth'</desc>
+            <char xml:id="abquod">
+               <charName>LATIN SMALL LETTER Q WITH DIAGONAL STROKE</charName>
+               <mapping type="default">{quod}</mapping>
+               <mapping type="standard">ꝙ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for 'subli' or 'sublimation'</desc>
+            <char xml:id="absubli">
+               <charName>ALCHEMICAL SYMBOL FOR SUBLIMATION</charName>
+               <mapping type="default">{subli}</mapping>
+               <mapping type="standard">🝞</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation symbol for '-us'; cp. U+1DD2. TCP does not distinguish between combining brevigraphs and combining brevigraphs ABOVE.</desc>
+            <char xml:id="abus">
+               <charName>MODIFIER LETTER US</charName>
+               <mapping type="default">{us}</mapping>
+               <mapping type="standard">ꝰ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for aqua fortis: resembles a stylized conjoined AF</desc>
+            <char xml:id="afortis">
+               <charName>ALCHEMICAL SYMBOL FOR AQUA FORTIS</charName>
+               <mapping type="default">{aqua fortis}</mapping>
+               <mapping type="standard">🜅</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for air (upright open triangle divided by horizontal line).</desc>
+            <char xml:id="air">
+               <charName>ALCHEMICAL SYMBOL FOR AIR</charName>
+               <mapping type="default">{air}</mapping>
+               <mapping type="standard">🜁</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for alembic; resembles inverted capital A or (alternative glyph) superimposed inverted A and normal V.</desc>
+            <char xml:id="alembic">
+               <charName>ALCHEMICAL SYMBOL FOR ALEMBIC</charName>
+               <mapping type="default">{alembic}</mapping>
+               <mapping type="standard">🝪</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>angle symbol</desc>
+            <char xml:id="ang">
+               <charName>ANGLE</charName>
+               <mapping type="default">{angle}</mapping>
+               <mapping type="Times New Roman">∠</mapping>
+               <mapping type="Arial Unicode MS">∠</mapping>
+               <mapping type="standard">∠</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for aqua regis or aqua regia: resembles a stylized conjoined AR</desc>
+            <char xml:id="aregis">
+               <charName>ALCHEMICAL SYMBOL FOR AQUA REGIA</charName>
+               <mapping type="default">{aqua regis}</mapping>
+               <mapping type="standard">🜆</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for arsenic: two small circles joined at their midpoints by horizontal line (sometimes curved up or down, hijacking symbol for north or south node)</desc>
+            <char xml:id="arsenic">
+               <charName>ALCHEMICAL SYMBOL FOR ARSENIC</charName>
+               <mapping type="default">{arsenic}</mapping>
+               <mapping type="standard">🜺</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for ashes; resembles capital E with + attached at central left</desc>
+            <char xml:id="ashes">
+               <charName>ALCHEMICAL SYMBOL FOR ASHES</charName>
+               <mapping type="default">{ashes}</mapping>
+               <mapping type="standard">🝗</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical barline, formally similar to single verticle bar (verbar)</desc>
+            <char xml:id="barline">
+               <charName>MUSICAL SYMBOL SINGLE BARLINE</charName>
+               <mapping type="default">{barline}</mapping>
+               <mapping type="Unicode">𝄀</mapping>
+               <mapping type="standard">𝄀</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <char xml:id="cclef">
+               <charName>MUSICAL SYMBOL C CLEF</charName>
+               <mapping type="default">{C-clef}</mapping>
+               <mapping type="Unicode">𝄡</mapping>
+               <mapping type="standard">𝄡</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for cinnabar, glyph resembles barbed fishhook or two yoghs transected by horizontal line.</desc>
+            <char xml:id="cinnabar1">
+               <charName>ALCHEMICAL SYMBOL FOR CINNABAR</charName>
+               <mapping type="default">{cinnabar}</mapping>
+               <mapping type="standard">🜓</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for cinnabar, alternative form; horizontally divided circle with upper half vertically divided, surmounted by +</desc>
+            <char xml:id="cinnabar3">
+               <charName>ALCHEMICAL SYMBOL FOR SALT OF ANTIMONY (i.e. cinnabar)</charName>
+               <mapping type="default">{cinnabar}</mapping>
+               <mapping type="standard">🜭</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>May be used for abbreviations with -a (qua, etc.) not otherwise provided for. Prefer ordinary superscripts.</desc>
+            <char xml:id="cmba2a">
+               <charName>COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE</charName>
+               <mapping type="default">ͣ</mapping>
+               <mapping type="standard">ᷞ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>May be used for abbreviations not otherwise provided for. Cp. abbrapo.</desc>
+            <char xml:id="cmbogona">
+               <charName>COMBINING OGONEK ABOVE</charName>
+               <mapping type="default">ʼ</mapping>
+               <mapping type="standard">᷎</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>May be same as timeimperf-prolatimperf</desc>
+            <char xml:id="commonTime-adagio">
+               <charName>MUSICAL SYMBOL COMMON TIME</charName>
+               <mapping type="default">{common time (adagio)}</mapping>
+               <mapping type="Unicode">𝄴</mapping>
+               <mapping type="standard">𝄴</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Use this for dotted diples or add dots to ldiple or rdiple</desc>
+            <char xml:id="ddiple">
+               <mapping type="default">{dotted diple}</mapping>
+               <mapping type="Arial Unicode MS">⸖</mapping>
+               <mapping type="standard">⸖</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Do not use for Greek, only if delta is borrowed into a Latin or vernacular context.</desc>
+            <char xml:id="delta">
+               <charName>LATIN SMALL LETTER DELTA</charName>
+               <mapping type="default">δ</mapping>
+               <mapping type="standard">ẟ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <char xml:id="diggr">
+               <charName>GREEK SMALL LETTER DIGAMMA</charName>
+               <mapping type="default">{digamma}</mapping>
+               <mapping type="Arial Unicode MS">Ϝ</mapping>
+               <mapping type="Unicode">ϝ</mapping>
+               <mapping type="standard">ϝ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>three dots forming a point-down triangle like because symbol but without that meaning</desc>
+            <char xml:id="dtridot">
+               <charName>TWO DOTS OVER ONE DOT PUNCTUATION</charName>
+               <mapping type="default">{dtridot}</mapping>
+               <mapping type="Times New Roman">∵</mapping>
+               <mapping type="Arial Unicode MS">∵</mapping>
+               <mapping type="standard">⸪</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for earth as an element, different from Earth as a planet, For the latter, cp. Earth, antimony</desc>
+            <char xml:id="earth">
+               <charName>ALCHEMICAL SYMBOL FOR EARTH</charName>
+               <mapping type="default">{earth}</mapping>
+               <mapping type="standard">🜃</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <char xml:id="fclef">
+               <charName>MUSICAL SYMBOL F CLEF</charName>
+               <mapping type="default">{F-clef}</mapping>
+               <mapping type="Unicode">𝄢</mapping>
+               <mapping type="standard">𝄢</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol fermata (cadence or close). Used also for holds.</desc>
+            <char xml:id="fermata">
+               <charName>MUSICAL SYMBOL FERMATA</charName>
+               <mapping type="default">{fermata}</mapping>
+               <mapping type="Unicode">𝄐</mapping>
+               <mapping type="standard">𝄐</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol fermata below (cadence or close). Used also for holds.</desc>
+            <char xml:id="fermatab">
+               <charName>MUSICAL SYMBOL FERMATA BELOW</charName>
+               <mapping type="default">{fermata below}</mapping>
+               <mapping type="Unicode">𝄑</mapping>
+               <mapping type="standard">𝄑</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for fire as an element</desc>
+            <char xml:id="fire">
+               <charName>ALCHEMICAL SYMBOL FOR FIRE</charName>
+               <mapping type="default">{fire}</mapping>
+               <mapping type="standard">🜂</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <char xml:id="gclef">
+               <charName>MUSICAL SYMBOL G CLEF</charName>
+               <mapping type="default">{G-clef}</mapping>
+               <mapping type="Unicode">𝄞</mapping>
+               <mapping type="standard">𝄞</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture insular form as "D"</desc>
+            <char xml:id="insul-D">
+               <charName>LATIN CAPITAL LETTER INSULAR D</charName>
+               <mapping type="default">{D}</mapping>
+               <mapping type="standard">Ꝺ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture insular form as "F"</desc>
+            <char xml:id="insul-F">
+               <charName>LATIN CAPITAL LETTER INSULAR F</charName>
+               <mapping type="default">{F}</mapping>
+               <mapping type="standard">Ꝼ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture insular form as "G"</desc>
+            <char xml:id="insul-G">
+               <charName>LATIN CAPITAL LETTER INSULAR G</charName>
+               <mapping type="default">{G}</mapping>
+               <mapping type="standard">Ᵹ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture insular form as "R"</desc>
+            <char xml:id="insul-R">
+               <charName>LATIN CAPITAL LETTER INSULAR R</charName>
+               <mapping type="default">{R}</mapping>
+               <mapping type="standard">Ꞃ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture insular form as "S"</desc>
+            <char xml:id="insul-S">
+               <charName>LATIN CAPITAL LETTER INSULAR S</charName>
+               <mapping type="default">{S}</mapping>
+               <mapping type="standard">Ꞅ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture insular form as "T"</desc>
+            <char xml:id="insul-T">
+               <charName>LATIN CAPITAL LETTER INSULAR T</charName>
+               <mapping type="default">{T}</mapping>
+               <mapping type="standard">Ꞇ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture insular form as "d"</desc>
+            <char xml:id="insul-d">
+               <charName>LATIN SMALL LETTER INSULAR D</charName>
+               <mapping type="default">{d}</mapping>
+               <mapping type="standard">ꝺ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture insular form as "f"</desc>
+            <char xml:id="insul-f">
+               <charName>LATIN SMALL LETTER INSULAR F</charName>
+               <mapping type="default">{f}</mapping>
+               <mapping type="standard">ꝼ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture insular form as "g"</desc>
+            <char xml:id="insul-g">
+               <charName>LATIN SMALL LETTER INSULAR G</charName>
+               <mapping type="default">{g}</mapping>
+               <mapping type="standard">ᵹ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture insular form as "r". Also compare apparently identical character U+027C.</desc>
+            <char xml:id="insul-r">
+               <charName>LATIN SMALL LETTER INSULAR R</charName>
+               <mapping type="default">{r}</mapping>
+               <mapping type="standard">ꞃ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture insular form as "s"</desc>
+            <char xml:id="insul-s">
+               <charName>LATIN SMALL LETTER INSULAR S</charName>
+               <mapping type="default">{s}</mapping>
+               <mapping type="standard">ꞅ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture insular form as "t"</desc>
+            <char xml:id="insul-t">
+               <charName>LATIN SMALL LETTER INSULAR T</charName>
+               <mapping type="default">{t}</mapping>
+               <mapping type="standard">ꞇ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Note that this koppa is the modern numeric sign, which may or may not be derived from the obsolete ancient koppa. 03DF is a recent addition to Unicode which displaced the original koppa (03DE) to status as a capital letter, but the original is more widely available in fonts, which is why 03DF is set here to display as 03DE. For the archaic forms see U+03D8 (capital), U+03D9 (small). Add entities for these if necessary. See http://ptolemy.tlg.uci.edu/~opoudjis/unicode/numerals.html.</desc>
+            <char xml:id="kogr">
+               <charName>GREEK SMALL LETTER KOPPA</charName>
+               <mapping type="default">{koppa}</mapping>
+               <mapping type="Arial Unicode MS">Ϟ</mapping>
+               <mapping type="Unicode">ϟ</mapping>
+               <mapping type="standard">ϟ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>For display purposes substitute the ornamental medium left curly brace in place of the true brace, reserved for abbreviation expansions.</desc>
+            <char xml:id="lbrace">
+               <charName>BRACKET, LEFT CURLY</charName>
+               <mapping type="default">❴</mapping>
+               <mapping type="Unicode">{</mapping>
+               <mapping type="standard">{</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Use only when printed form is other than doubled l, e.g. l-loop. Capture Welsh doubled letter as if it were two ("ll")</desc>
+            <char xml:id="ll">
+               <charName>LATIN SMALL LETTER MIDDLE-WELSH LL</charName>
+               <mapping type="default">{ll}</mapping>
+               <mapping type="standard">ỻ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical left repeat symbol resembles ||:</desc>
+            <char xml:id="lrepeat">
+               <charName>MUSICAL SYMBOL LEFT REPEAT SIGN</charName>
+               <mapping type="default">{left repeat}</mapping>
+               <mapping type="Unicode">𝄆</mapping>
+               <mapping type="standard">𝄆</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical brace, formally similar to left curly brace</desc>
+            <char xml:id="musicBrace">
+               <charName>MUSICAL SYMBOL BRACE</charName>
+               <mapping type="default">{musical brace}</mapping>
+               <mapping type="Unicode">𝄔</mapping>
+               <mapping type="standard">𝄔</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical bracket, formally similar to left square bracket</desc>
+            <char xml:id="musicBracket">
+               <charName>MUSICAL SYMBOL BRACKET</charName>
+               <mapping type="default">{musical bracket}</mapping>
+               <mapping type="Unicode">𝄕</mapping>
+               <mapping type="standard">𝄕</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for night: resembles a small circle with a vertical line sticking down from it (vertically or slanted to the left).</desc>
+            <char xml:id="night">
+               <charName>ALCHEMICAL SYMBOL FOR NIGHT</charName>
+               <mapping type="default">{night}</mapping>
+               <mapping type="standard">🝯</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for nitre or saltpetre</desc>
+            <char xml:id="nitre">
+               <charName>ALCHEMICAL SYMBOL FOR NITRE</charName>
+               <mapping type="default">{nitre}</mapping>
+               <mapping type="standard">🜕</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>For display purposes substitute the dingbat eighth-note for the true musical eighth-note (which most fonts do not support).</desc>
+            <char xml:id="noteEighth">
+               <charName>MUSICAL SYMBOL EIGHTH NOTE</charName>
+               <mapping type="default">♪</mapping>
+               <mapping type="Unicode">𝅘𝅥𝅮</mapping>
+               <mapping type="standard">𝅘𝅥𝅮</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <char xml:id="noteHalf">
+               <charName>MUSICAL SYMBOL HALF NOTE</charName>
+               <mapping type="default">{half note}</mapping>
+               <mapping type="Unicode">𝅗𝅥</mapping>
+               <mapping type="standard">𝅗𝅥</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>For display purposes substitute the dingbat quarter-note for the true musical quarter-note (which most fonts do not support).</desc>
+            <char xml:id="noteQuarter">
+               <charName>MUSICAL SYMBOL QUARTER NOTE</charName>
+               <mapping type="default">♩</mapping>
+               <mapping type="Unicode">𝅘𝅥</mapping>
+               <mapping type="standard">𝅘𝅥</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <char xml:id="noteWhole">
+               <charName>MUSICAL SYMBOL WHOLE NOTE</charName>
+               <mapping type="default">{whole note}</mapping>
+               <mapping type="Unicode">𝅝</mapping>
+               <mapping type="standard">𝅝</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol breve or brief note or nota brevis</desc>
+            <char xml:id="notebreve">
+               <charName>MUSICAL SYMBOL BREVIS</charName>
+               <mapping type="default">{breve note}</mapping>
+               <mapping type="Unicode">𝆸</mapping>
+               <mapping type="standard">𝆸</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol crotchet note or nota minima black</desc>
+            <char xml:id="notecrotchet">
+               <charName>MUSICAL SYMBOL MINIMA BLACK</charName>
+               <mapping type="default">{crotchet note}</mapping>
+               <mapping type="Unicode">𝆺𝅥</mapping>
+               <mapping type="standard">𝆺𝅥</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol large note or double long note or nota maxima</desc>
+            <char xml:id="notelarge">
+               <charName>MUSICAL SYMBOL MAXIMA</charName>
+               <mapping type="default">{large note}</mapping>
+               <mapping type="Unicode">𝆶</mapping>
+               <mapping type="standard">𝆶</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol long note or nota longa</desc>
+            <char xml:id="notelong">
+               <charName>MUSICAL SYMBOL LONGA</charName>
+               <mapping type="default">{long note}</mapping>
+               <mapping type="Unicode">𝆷</mapping>
+               <mapping type="standard">𝆷</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol minim note or nota minima white (black 𝆺𝅥)</desc>
+            <char xml:id="noteminim">
+               <charName>MUSICAL SYMBOL MINIMA</charName>
+               <mapping type="default">{minim note}</mapping>
+               <mapping type="Unicode">𝆹𝅥</mapping>
+               <mapping type="standard">𝆹𝅥</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol quaver note or nota semiminima black (white 𝆹𝅥𝅮)</desc>
+            <char xml:id="notequaver">
+               <charName>MUSICAL SYMBOL SEMIMINIMA BLACK</charName>
+               <mapping type="default">{quaver note}</mapping>
+               <mapping type="Unicode">𝆺𝅥𝅮</mapping>
+               <mapping type="standard">𝆺𝅥𝅮</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol semibreve or semibrief note or nota semibrevis white (black 𝆺)</desc>
+            <char xml:id="notesemibreve">
+               <charName>SYMBOL SEMIBREVIS WHITE</charName>
+               <mapping type="default">{semibreve note}</mapping>
+               <mapping type="Unicode">𝆹</mapping>
+               <mapping type="standard">𝆹</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol semiquaver note or nota fusa black (white 𝆹𝅥𝅯)</desc>
+            <char xml:id="notesemiquaver">
+               <charName>MUSICAL SYMBOL FUSA BLACK</charName>
+               <mapping type="default">{semiquaver note}</mapping>
+               <mapping type="Unicode">𝆺𝅥𝅯</mapping>
+               <mapping type="standard">𝆺𝅥𝅯</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Greek and Syriac critical siglum as used by Origen and his successors. This is the generic entity, to be used regardless of glyph variant or when glyph variation is insignificant. Glyph variants may look like ÷ (division) or ∸ (dot minus) or ∻ (homothetic). Our only attested example actually looks like none of these, but like a 'stair step' similar in shape to the 'right transposition bracket' (⸊)</desc>
+            <char xml:id="obelus">
+               <charName>DOTTED OBELOS</charName>
+               <mapping type="default">{obelus}</mapping>
+               <mapping type="Times New Roman">∻</mapping>
+               <mapping type="Arial Unicode MS">⸓</mapping>
+               <mapping type="standard">⸓</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for oil</desc>
+            <char xml:id="oil">
+               <charName>ALCHEMICAL SYMBOL FOR OIL</charName>
+               <mapping type="default">{oil}</mapping>
+               <mapping type="standard">🝆</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for orpiment or auripigmentum, probably in most cases yellow orpiment (arsenic trisulphide) though possibly sometimes red orpiment (arsenic monosulphide). Resembles two circles side by side tied together by a pair of horizontal lines. Glyph variant is a pair of horzontal lines with symmetrical central bulges.</desc>
+            <char xml:id="orpiment">
+               <charName>ALCHEMICAL SYMBOL FOR ORPIMENT or AURIPIGMENTUM</charName>
+               <mapping type="default">{orpiment}</mapping>
+               <mapping type="standard">🜽</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for potash: resembles a squared-off U with an attached + below it</desc>
+            <char xml:id="potash">
+               <charName>ALCHEMICAL SYMBOL FOR POT ASHES</charName>
+               <mapping type="default">{potash}</mapping>
+               <mapping type="standard">🝘</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for purify or purifies; formally various; apparently resembles a U-shaped loop with small loops or circes at each end (a little like an ascending node sign, which is sometimes substituted)</desc>
+            <char xml:id="purify">
+               <charName>ALCHEMICAL SYMBOL FOR PURIFY</charName>
+               <mapping type="default">{purify}</mapping>
+               <mapping type="standard">🝣</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>lower case q with a horizontal stroke (bar) through the upright, a common abbreviation symbol with several meanings (quae, qui, etc.)</desc>
+            <char xml:id="qbar">
+               <charName>LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER</charName>
+               <mapping type="default">{qbar}</mapping>
+               <mapping type="Arial Unicode MS">q̲</mapping>
+               <mapping type="standard">ꝗ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>quad dot square (without specific meaning; compare proportion entity)</desc>
+            <char xml:id="quaddot">
+               <charName>SQUARED FOUR DOT PUNCTUATION</charName>
+               <mapping type="default">{quaddot}</mapping>
+               <mapping type="Arial Unicode MS">∷</mapping>
+               <mapping type="standard">⸬</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for quicklime; glyph variants reflect various printers' expedients; one version resembles circle containing + (i.e. both horizontally and vertically divided), with another + attached externally at lowest point (?could display as U+2295 U+031F); another (the canonical version) a U-shaped cup surmounting a cross; another a Greek capital Psi (apparently a hijacked glyph).</desc>
+            <char xml:id="quicklime">
+               <mapping type="default">{quicklime}</mapping>
+               <mapping type="standard">🝁</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>Glyph variant. Do not use. Capture round (2-shaped) form as "r"</desc>
+            <char xml:id="r">
+               <charName>LATIN SMALL LETTER R ROTUNDA</charName>
+               <mapping type="default">r</mapping>
+               <mapping type="standard">ꝛ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>For display purposes substitute the ornamental medium right curly brace in place of the true brace, reserved for abbreviation expansions.</desc>
+            <char xml:id="rbrace">
+               <charName>BRACKET, RIGHT CURLY</charName>
+               <mapping type="default">❵</mapping>
+               <mapping type="Unicode">}</mapping>
+               <mapping type="standard">}</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol breve or brief rest or rest commensurate with nota brevis</desc>
+            <char xml:id="restbreve">
+               <charName>MUSICAL SYMBOL BREVIS REST</charName>
+               <mapping type="default">{breve rest}</mapping>
+               <mapping type="Unicode">𝇃</mapping>
+               <mapping type="standard">𝇃</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol crotchet rest or rest commensurate with nota minima black</desc>
+            <char xml:id="restcrotchet">
+               <charName>MUSICAL SYMBOL SEMIMINIMA REST</charName>
+               <mapping type="default">{crotchet rest}</mapping>
+               <mapping type="Unicode">𝇆</mapping>
+               <mapping type="standard">𝇆</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol large rest or rest comensurate with nota maxima</desc>
+            <char xml:id="restlarge">
+               <charName>MUSICAL SYMBOL LONGA PERFECTA REST</charName>
+               <mapping type="default">{large rest}</mapping>
+               <mapping type="Unicode">𝇁</mapping>
+               <mapping type="standard">𝇁</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol long rest or rest comensurate with nota longa</desc>
+            <char xml:id="restlong">
+               <charName>MUSICAL SYMBOL LONGA IMPERFECTA REST</charName>
+               <mapping type="default">{long rest}</mapping>
+               <mapping type="Unicode">𝇂</mapping>
+               <mapping type="standard">𝇂</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol minim rest or rest commensurate with nota minima white</desc>
+            <char xml:id="restminim">
+               <charName>MUSICAL SYMBOL MINIMA REST</charName>
+               <mapping type="default">{minim rest}</mapping>
+               <mapping type="Unicode">𝇅</mapping>
+               <mapping type="standard">𝇅</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical symbol semibreve or semibrief rest or rest commensurate with nota semibrevis white</desc>
+            <char xml:id="restsemibreve">
+               <charName>MUSICAL SYMBOL SEMIBREVIS REST</charName>
+               <mapping type="default">{semibreve rest}</mapping>
+               <mapping type="Unicode">𝇄</mapping>
+               <mapping type="standard">𝇄</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for retort as a piece of lab equipment.</desc>
+            <char xml:id="retort">
+               <charName>ALCHEMICAL SYMBOL FOR RETORT</charName>
+               <mapping type="default">{retort}</mapping>
+               <mapping type="standard">🝭</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>roman numeral 100000 (tripled M)</desc>
+            <char xml:id="rn100000">
+               <charName>ROMAN NUMERAL ONE HUNDRED THOUSAND</charName>
+               <mapping type="default">{roman 100000}</mapping>
+               <mapping type="standard">ↈ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>roman numeral 50000 (tripled D)</desc>
+            <char xml:id="rn50000">
+               <charName>ROMAN NUMERAL FIFTY THOUSAND</charName>
+               <mapping type="default">{roman 50000}</mapping>
+               <mapping type="standard">ↇ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical right repeat symbol resembles :||</desc>
+            <char xml:id="rrepeat">
+               <charName>MUSICAL SYMBOL RIGHT REPEAT SIGN</charName>
+               <mapping type="default">{right repeat}</mapping>
+               <mapping type="Unicode">𝄇</mapping>
+               <mapping type="standard">𝄇</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for sal armoniac</desc>
+            <char xml:id="salarmon">
+               <charName>ALCHEMICAL SYMBOL FOR SAL AMMONIAC (i.e. ammonium chloride)</charName>
+               <mapping type="default">{sal armoniac}</mapping>
+               <mapping type="standard">🜹</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for salt</desc>
+            <char xml:id="salt">
+               <charName>ALCHEMICAL SYMBOL FOR SALT</charName>
+               <mapping type="default">{salt}</mapping>
+               <mapping type="standard">🜔</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for salt gemme (sal gemmae, rock salt); resembles Taurus sign. Display as Taurus, U+2649</desc>
+            <char xml:id="saltgemme">
+               <charName>ALCHEMICAL SYMBOL FOR ROCK SALT</charName>
+               <mapping type="default">{salt gemme}</mapping>
+               <mapping type="Arial Unicode MS">♉</mapping>
+               <mapping type="standard">🜘</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <char xml:id="samgr">
+               <charName>GREEK SMALL LETTER SAMPI</charName>
+               <mapping type="default">{sampi}</mapping>
+               <mapping type="Arial Unicode MS">Ϡ</mapping>
+               <mapping type="Unicode">ϡ</mapping>
+               <mapping type="standard">ϡ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign caput mortuum (death's head or skull). DISPLAY AS SKULL AND CROSSBONES (U+2620).</desc>
+            <char xml:id="skull">
+               <charName>SKULL</charName>
+               <mapping type="default">{deaths head}</mapping>
+               <mapping type="Arial Unicode MS">☠</mapping>
+               <mapping type="standard">💀</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>(combining) musical character treated as two characters in Unicode, non-displayable. For display purposes substitute the single LIGATURE TIE (COMBINING DOUBLE BREVE BELOW) combined with non-breaking spaces to make it a spacing character. Capture as slur regardless of whether it appears above (curved down) or below (curved up), since these are positional glyph variants.</desc>
+            <char xml:id="slur">
+               <charName>MUSICAL SYMBOL BEGIN SLUR MUSICAL SYMBOL END SLUR</charName>
+               <mapping type="default"> ͜ </mapping>
+               <mapping type="Unicode">𝅷𝅸</mapping>
+               <mapping type="standard">𝅷𝅷ᴗ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>We have hijacked this Unicode code point for a symbol to represent the spacing dash used to space words out under musical notes or similar environments.</desc>
+            <char xml:id="spcDash">
+               <charName>BOX DRAWING LIGHT DOUBLE DASH HORIZONTAL</charName>
+               <mapping type="default"/>
+               <mapping type="Arial Unicode MS">╌</mapping>
+               <mapping type="standard">╌</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>U+03DB is the modern Greek symbol for 6, but as a recent addition to Unicode, it displaced 03DA, which it treats as a capital, though 03DA is more widely found in fonts. Hence 03DB is here set to display as 03DA. Use 03DB for numeric use if shape is vaguely like final sigma or cursive s-t ligature (origin of the name stigma). If form is like digamma or like upper half of box (gamma facing mirror gamma), use small digamma (diggr).</desc>
+            <char xml:id="stgr">
+               <charName>GREEK SMALL LETTER STIGMA</charName>
+               <mapping type="default">{stigma}</mapping>
+               <mapping type="Arial Unicode MS">Ϛ</mapping>
+               <mapping type="Unicode">ϛ</mapping>
+               <mapping type="standard">ϛ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for sulphur</desc>
+            <char xml:id="sulphur">
+               <charName>ALCHEMICAL SYMBOL FOR SULFUR</charName>
+               <mapping type="default">{sulphur}</mapping>
+               <mapping type="standard">🜍</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for tartar or potassium tartrate</desc>
+            <char xml:id="tartar">
+               <charName>ALCHEMICAL SYMBOL FOR TARTAR (i.e. impure potassium tartrate)</charName>
+               <mapping type="default">{tartar}</mapping>
+               <mapping type="standard">🜿</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>crossed thorn abbrev.for that</desc>
+            <char xml:id="that">
+               <charName>LATIN SMALL LETTER THORN WITH STROKE THROUGH DESCENDER</charName>
+               <mapping type="default">{that}</mapping>
+               <mapping type="standard">ꝧ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating  time imperfect (a c-shaped broken circle) and prolation imperfect (no dot or prick)</desc>
+            <char xml:id="timeimperf-prolatimperf">
+               <charName>MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE IMPERFECTA</charName>
+               <mapping type="default">{timeimperf-prolatimperf}</mapping>
+               <mapping type="Unicode">𝇋</mapping>
+               <mapping type="standard">𝇋</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating  time imperfect (a c-shaped broken circle) and prolation imperfect (no dot or prick) reversed to indicate diminution</desc>
+            <char xml:id="timeimperf-prolatimperf-rev">
+               <charName>MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE IMPERFECTA DIMINUTION-1</charName>
+               <mapping type="default">{timeimperf-prolatimperf-rev}</mapping>
+               <mapping type="Unicode">𝇌</mapping>
+               <mapping type="standard">𝇌</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating  time imperfect (a c-shaped broken circle) and prolation imperfect (no dot or prick) reversed and with a stroke to indicate double diminution</desc>
+            <char xml:id="timeimperf-prolatimperf-rev-str">
+               <charName>MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE IMPERFECTA DIMINUTION-3</charName>
+               <mapping type="default">{timeimperf-prolatimperf-rev-str}</mapping>
+               <mapping type="Unicode">𝇎</mapping>
+               <mapping type="standard">𝇎</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating  time imperfect (a c-shaped broken circle) and prolation imperfect (no dot or prick) with stroke indicating diminution</desc>
+            <char xml:id="timeimperf-prolatimperf-str">
+               <charName>MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE IMPERFECTA DIMINUTION-2</charName>
+               <mapping type="default">{timeimperf-prolatimperf-str}</mapping>
+               <mapping type="Unicode">𝇍</mapping>
+               <mapping type="standard">𝇍</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating  time imperfect (a c-shaped broken circle) and prolation imperfect (dot or prick)</desc>
+            <char xml:id="timeimperf-prolatperf">
+               <charName>MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE PERFECTA</charName>
+               <mapping type="default">{timeimperf-prolatperf}</mapping>
+               <mapping type="Unicode">𝇊</mapping>
+               <mapping type="standard">𝇊</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating time perfect (a circle) and prolation imperfect (no dot or prick)</desc>
+            <char xml:id="timeperf-prolatimperf">
+               <charName>MUSICAL SYMBOL TEMPUS PERFECTUM CUM PROLATIONE IMPERFECTA</charName>
+               <mapping type="default">{timeperf-prolatimperf}</mapping>
+               <mapping type="Unicode">𝇈</mapping>
+               <mapping type="standard">𝇈</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>musical mensuration symbol indicating  time perfect (a circle) and prolation perfect (dot or prick)</desc>
+            <char xml:id="timeperf-prolatperf">
+               <charName>MUSICAL SYMBOL TEMPUS PERFECTUM CUM PROLATIONE PERFECTA</charName>
+               <mapping type="default">{timeperf-prolatperf}</mapping>
+               <mapping type="Unicode">𝇇</mapping>
+               <mapping type="standard">𝇇</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>three dots forming an upright triangle, like therefore symbol but without that meaning, note that tridot also exists in ISOamsb, but with reference to completely different symbol</desc>
+            <char xml:id="tridot">
+               <charName>ONE DOT OVER TWO DOTS PUNCTUATION</charName>
+               <mapping type="default">{tridot}</mapping>
+               <mapping type="Times New Roman">∴</mapping>
+               <mapping type="Arial Unicode MS">∴</mapping>
+               <mapping type="standard">⸫</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical sign for urine; resembles open square or open square with central dot. Display as squared dot operator: U+22A1</desc>
+            <char xml:id="urine">
+               <charName>ALCHEMICAL SYMBOL FOR URINE</charName>
+               <mapping type="default">{urine}</mapping>
+               <mapping type="Arial Unicode MS">⊡</mapping>
+               <mapping type="standard">🝕</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for distilled vinegar or spirit of vinegar: a simple cross (?either + or x shaped) with dots in the four quadrants, like U+205C (which is not included in Arial Unicode MS). Unicode 1F703 has the right glyph and similar enough meaning (alternate glyph for VINEGAR) to make entity and codepoint equivalent.</desc>
+            <char xml:id="vinedist">
+               <charName>ALCHEMICAL SYMBOL FOR VINEGAR (alternate)</charName>
+               <mapping type="default">{vinegar distilled}</mapping>
+               <mapping type="standard">🜋</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for vinegar: a simple cross (?either + or x shaped)</desc>
+            <char xml:id="vinegar">
+               <charName>ALCHEMICAL SYMBOL FOR VINEGAR</charName>
+               <mapping type="default">{vinegar}</mapping>
+               <mapping type="standard">🜊</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for vitriol (sulphuric acid, or its products iron, copper, or zinc sulfate); vertically divided circle with right half horizontally divided but no attachments external to circle</desc>
+            <char xml:id="vitriol">
+               <charName>ALCHEMICAL SYMBOL FOR VITRIOL</charName>
+               <mapping type="default">{vitriol}</mapping>
+               <mapping type="standard">🜖</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>lower-case distinctive early Welsh form of w</desc>
+            <char xml:id="w">
+               <charName>LATIN SMALL LETTER MIDDLE-WELSH V</charName>
+               <mapping type="default">{w}</mapping>
+               <mapping type="standard">ỽ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical symbol for water as an element</desc>
+            <char xml:id="water">
+               <charName>ALCHEMICAL SYMBOL FOR WATER</charName>
+               <mapping type="default">{water}</mapping>
+               <mapping type="standard">🜄</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>alchemical or medical sign for wax: resembles a small circle with four symmetrical rays</desc>
+            <char xml:id="wax">
+               <charName>ALCHEMICAL SYMBOL FOR WAX</charName>
+               <mapping type="default">{wax}</mapping>
+               <mapping type="standard">🝊</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>lower-case distinctive early Welsh broken-backed form of y (mapped here to Unicode codepoint for looped y)</desc>
+            <char xml:id="y">
+               <charName>LATIN SMALL LETTER Y WITH LOOP</charName>
+               <mapping type="default">{y}</mapping>
+               <mapping type="standard">ỿ</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>abbreviation stroke resembling -z (prefer abbus and abque (etc.) when -z forms part of those larger symbols; prefer -m or yogh if letter is really m or historically yogh. Most commonly represents et or a word ending in et (scilicet, habet, patet, etc.)</desc>
+            <char xml:id="z">
+               <charName>LATIN SMALL LETTER ET</charName>
+               <mapping type="default">{..-et}</mapping>
+               <mapping type="Arial Unicode MS">ʐ</mapping>
+               <mapping type="standard">Ꝫ</mapping>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+</TEI>
