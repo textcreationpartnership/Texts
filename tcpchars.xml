@@ -257,6 +257,14 @@
             </char>
          </charDecl>
          <charDecl>
+            <desc>Entity stand-in for character kludge "~"</desc>
+            <char xml:id="cmbAbbrStroke">
+               <charName>COMBINING MACRON-LIKE ABBREVIATION STROKE</charName>
+               <mapping type="Arial Unicode MS">̄</mapping>
+               <mapping type="PUA"></mapping>
+            </char>
+         </charDecl>
+         <charDecl>
             <desc>Looks like reversed cut time symbol. May be the same as timeimperf-prolatimperf-rev-str</desc>
             <char xml:id="commonTime-allegro">
                <charName>MUSICAL SYMBOL COMMON TIME ALLEGRO</charName>
@@ -1141,10 +1149,28 @@
             </char>
          </charDecl>
          <charDecl>
+            <desc>We have hijacked this Unicode code point for use in the XML derivative versions ONLY, as a display equivalent for an EOL hyphen.</desc>
+            <char xml:id="EOLhyphen">
+               <charName>DIVIDES</charName>
+               <mapping type="default">{-}</mapping>
+               <mapping type="Arial Unicode MS">∣</mapping>
+               <mapping type="standard">∣</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
+            <desc>We have hijacked this Unicode code point for use in the XML derivative versions ONLY, as a display equivalent for an editor-supplied EOL hyphen.</desc>
+            <char xml:id="EOLunhyphen">
+               <charName>BROKEN BAR</charName>
+               <mapping type="default">{+}</mapping>
+               <mapping type="Arial Unicode MS">¦</mapping>
+               <mapping type="standard">¦</mapping>
+            </char>
+         </charDecl>
+         <charDecl>
             <desc>musical double barline, formally similar to double vertical bar (Verbar)</desc>
             <char xml:id="Barline">
                <charName>MUSICAL SYMBOL DOUBLE BARLINE</charName>
-               <mapping type="default">{double barline}</mapping>
+               <mapping type="default">‖</mapping>
                <mapping type="Unicode">𝄁</mapping>
                <mapping type="standard">𝄁</mapping>
             </char>
@@ -1470,7 +1496,7 @@
             </char>
          </charDecl>
          <charDecl>
-            <desc>three dots forming a point-down triangle like because symbol but without that meaning</desc>
+            <desc>three dots forming a point-down triangle like because symbol but without that meaning.  Display as U+2235 BECAUSE.</desc>
             <char xml:id="dtridot">
                <charName>TWO DOTS OVER ONE DOT PUNCTUATION</charName>
                <mapping type="default">{dtridot}</mapping>
