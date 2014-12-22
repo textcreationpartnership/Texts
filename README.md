@@ -1,4 +1,4 @@
 Texts
 =====
 
-the EEBO TCP texts
+The list of  EEBO TCP texts, in CSV form
