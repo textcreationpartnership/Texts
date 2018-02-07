@@ -1,4 +1,8 @@
-Texts
-=====
+This repository contains the list of all [EEBO-TCP](http://www.textcreationpartnership.org/tcp-eebo/) and [Evans-TCP](http://www.textcreationpartnership.org/tcp-evans/) texts in CSV and JSON formats.
 
-The list of  EEBO TCP texts, in CSV form
+To download the entire archive (about 10GB), run one of the included Python scripts:
+
+```
+$ cd Texts/
+$ python download-all.py
+```
